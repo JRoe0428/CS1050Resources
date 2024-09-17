@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\jayro\OneDrive\Documents\Rainmeter\Skins\Droptop Folders\CustomFolder1\Computer Science 1\.metadata\.plugins\org.eclipse.jdt.core
+912079605.index
+1865797976.index
+1601831639.index
+1744119945.index

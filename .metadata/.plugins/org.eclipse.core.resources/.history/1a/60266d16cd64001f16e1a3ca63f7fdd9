@@ -1,0 +1,36 @@
+
+import java.util.Scanner; // Needed for the Scanner Class
+
+public class Jay_Roe_Assignment01 {
+	
+	public static void main(String[] args) 
+	{
+		 String input;  // To hold line Input
+		 char answer; // To hold a single Character
+		 
+		 // Create a Scanner object for keyword input.
+		 Scanner keyboard = new Scanner(System.in);
+		 
+		 // Ask the user a Question.
+		 System.out.print("Are you having fun yet? (Y=Yes, N=No)");
+		 input = keyboard.nextLine();
+		 answer = input.charAt(0); // Get the first Character
+		 
+		 if(answer =='N') {
+			 System.out.println("Sorry to hear that you're not having fun. "
+			 		+ "Let's read this story to see if it will get better.\n\n"
+			 		+ "Once upon a time, in a land of technology, "
+			 		+ "there was a computer acting up.\n"
+			 		+ "It was producing random errors, freezing at the most "
+			 		+ "inconvenient times, and generally causing chaos.\n\n"
+			 		+ "The owner, frustrated, decided to consult a computer wizard"
+			 		+ "renowned for fixing the most stubborn issues.\nThe wizard"
+			 		+ "approached the computer, waved a magical mouse");
+			 
+		 }
+		 
+		 
+	}
+	
+
+}

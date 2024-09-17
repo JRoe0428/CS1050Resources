@@ -1,0 +1,16 @@
+package memes;
+
+public class Jay_Roe_Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int months = 2, days =23, years = 34;
+		
+		
+		System.out.println("It's been" + months + days + years);
+
+		
+		
+	}
+
+}

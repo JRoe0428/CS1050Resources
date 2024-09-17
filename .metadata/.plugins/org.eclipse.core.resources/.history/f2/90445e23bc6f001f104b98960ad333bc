@@ -1,0 +1,32 @@
+import javax.swing.JOptionPane;
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int numStudent = 27;
+		//int roomNum = 250;
+		//String roomLatter = "AES";
+		
+		//double goodGrade = 99.9;
+		
+		//System.out.println("In room" + roomLatter + roomNum + " we have" + numStudent + "got" + goodGrade );
+		
+		//System.out.printf("In room %s%d we have %d students got %f",roomLatter,roomNum,numStudent,goodGrade);
+		
+		//System.out.println();
+		//System.out.println(3 % 1);
+				
+		
+		int number;
+		String stringNumber;
+		JOptionPane.showMessageDialog("Good Evening");
+		stringNumber = JOptionPane.showInputDialog("Enter a Number to be Multiplied by 10");
+		int intNumber = Integer.parseInt(stringNumber);
+		stringNumber =JOptionPane.showInputDialog("Get multiplied bitch: " + (intNumber*10) + "\nSay thank you");
+		//JOptionPane.showMessageDialog("Bruh");
+		
+		//keyBoardInput.close(); Side note, this closes the keyboard operation. Not wasting any CPU space and shit
+
+	}
+
+}

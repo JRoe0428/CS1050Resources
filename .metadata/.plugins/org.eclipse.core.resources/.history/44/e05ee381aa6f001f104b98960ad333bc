@@ -1,0 +1,17 @@
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numStudent = 27
+		int roomNum = 250;
+		String roomLatter = "AES";
+		
+		double goodGrade = 99.9;
+		
+		System.out.println("In room" + roomLatter + roomNum + " we have" + numStudent + "got" + goodGrade );
+		
+		System.out.printf("In room %s%d we have %d students got %f",roomLatter,roomNum,numStudnet,goodGrade);
+
+	}
+
+}

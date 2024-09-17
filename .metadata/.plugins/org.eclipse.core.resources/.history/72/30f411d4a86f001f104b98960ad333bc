@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number;
+		String stringNumber;
+		stringNumber = JOptionPane.showInputDialog("Enter a Number to be Multiplied");
+		int intNumber = Integer.parseInt(stringNumber);
+		stringNumber =JOptionPane.showInputDialog("Get multiplied bitch: " + (intNumber*10) + "\nSay thank you");
+		
+
+	}
+
+}
